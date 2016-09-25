@@ -46,6 +46,10 @@ public class MainActivity extends AppCompatActivity {
     public void btn9Clicked(View v){
         insert(9);
     }
+    public void btn0Clicked(View v){
+        insert(0);
+    }
+
 
     public void btnplusClicked(View v){
         perform();
