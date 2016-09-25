@@ -52,13 +52,6 @@
         android:layout_toRightOf="@id/Btn8_id"
         android:onClick="btn9Clicked"
         android:text="9" />
-        <Button
-            android:id="@+id/Btndivide_id"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:onClick="btndivideClicked"
-            android:text="/" />
 
         <Button
             android:layout_width="0dp"
@@ -109,21 +102,16 @@
         android:layout_toRightOf="@id/Btn5_id"
         android:onClick="btn6Clicked"
         android:text="6" />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="("
-            android:id="@+id/open"
-            android:layout_weight="1" />
 
         <Button
+            android:id="@+id/Btnminus_id"
             android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text=")"
-            android:id="@+id/close"
-            android:layout_weight="1" />
+            android:onClick="btnminusClicked"
+            android:text="-" />
 
-    <Button
+        <Button
         android:id="@+id/Btnplus_id"
         android:layout_width="0dp"
         android:layout_weight="1"
@@ -159,13 +147,6 @@
         android:onClick="btn3Clicked"
         android:text="3" />
 
-    <Button
-        android:id="@+id/Btnminus_id"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:onClick="btnminusClicked"
-        android:text="-" />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -194,13 +175,7 @@
             android:layout_height="wrap_content"
             android:onClick="btn2Clicked"
             android:text="0" />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:onClick="btndec"
-            android:id="@+id/dot"
-            android:text="."
-            android:layout_weight="1" />
+
 
     <Button
         android:id="@+id/Btnmulti_id"
@@ -209,6 +184,15 @@
         android:layout_height="wrap_content"
         android:onClick="btnmultiClicked"
         android:text="*" />
+
+        <Button
+            android:id="@+id/Btndivide_id"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="btndivideClicked"
+            android:text="/" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
